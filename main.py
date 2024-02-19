@@ -22,7 +22,7 @@ def promotion():
 
 @app.route('/image_mars')
 def image_mars():
-    return '''<img src="/static/image/mars.png" alt="здесь должна была быть картинка, но не нашлась">'''
+    return '''<h1> Жди нас, Марс! </h1><img src="/static/image/mars.png" alt="здесь должна была быть картинка, но не нашлась">'''
 
 
 if __name__ == '__main__':
